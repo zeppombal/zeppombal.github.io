@@ -207,20 +207,24 @@ papertitle {
     }
 
     .image.avatar {
-      border-radius: 100%;
+      /* Ensure the container is square. Adjust width and height as needed */
+      width: 200px; /* Example width */
+      height: 200px; /* Example height */
+      display: flex; /* This can help center the image */
+      justify-content: center;
+      align-items: center;
     }
-
+    
       .image.avatar:before {
         display: none;
       }
 
       .image.avatar img {
-        border-radius: 100%; /* This makes the image circular */
-        width: 45%; /* Ensure the height is equal to the width */
-        height: 45%; /* Add this line */
-        padding: 0; /* Remove padding to maintain the circle shape */
-        /* Add object-fit if you want to maintain the aspect ratio of the image */
-        object-fit: cover; 
+        border-radius: 100%;
+        width: 100%; /* Adjust to fill the container */
+        height: 100%; /* Equal to width for a perfect circle */
+        object-fit: cover; /* To handle non-square images */
+        padding: 0; /* Remove padding */
       }
 
     #header .image.avatar {
