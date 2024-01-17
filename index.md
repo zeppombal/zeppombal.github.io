@@ -18,4 +18,3 @@ Previously, I worked on the fields of algorithmic fairness and explainability.
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
