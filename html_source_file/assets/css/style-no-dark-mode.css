@@ -55,16 +55,20 @@ papertitle { font-weight: 600; font-size: 100%; }
 .image:before { -moz-transition: opacity 0.2s ease-in-out; -webkit-transition: opacity 0.2s ease-in-out; -ms-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; border-radius: 0.35em; content: ''; display: block; height: 100%; left: 0; opacity: 0.5; position: absolute; top: 0; width: 100%; }
 
 .image.avatar {
-  /* Adjustments may be needed here if this container affects the shape */
+  /* Ensure the container is square. Adjust width and height as needed */
+  width: 200px; /* Example width */
+  height: 200px; /* Example height */
+  display: flex; /* This can help center the image */
+  justify-content: center;
+  align-items: center;
 }
 
 .image.avatar img {
-  border-radius: 100%; /* This makes the image circular */
-  width: 55%; /* Ensure the height is equal to the width */
-  height: 45%; /* Add this line */
-  padding: 0; /* Remove padding to maintain the circle shape */
-  /* Add object-fit if you want to maintain the aspect ratio of the image */
-  object-fit: cover; 
+  border-radius: 100%;
+  width: 100%; /* Adjust to fill the container */
+  height: 100%; /* Equal to width for a perfect circle */
+  object-fit: cover; /* To handle non-square images */
+  padding: 0; /* Remove padding */
 }
 
 #header .image.avatar { margin: 0 0 1em 0; width: 8.00em; }
