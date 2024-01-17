@@ -60,7 +60,7 @@ papertitle { font-weight: 600; font-size: 100%; }
 
 .image.avatar img {
   border-radius: 100%; /* This makes the image circular */
-  width: 45%; /* Ensure the height is equal to the width */
+  width: 55%; /* Ensure the height is equal to the width */
   height: 45%; /* Add this line */
   padding: 0; /* Remove padding to maintain the circle shape */
   /* Add object-fit if you want to maintain the aspect ratio of the image */
