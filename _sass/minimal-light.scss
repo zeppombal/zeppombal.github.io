@@ -207,7 +207,12 @@ papertitle {
     }
 
     .image.avatar {
-      border-radius: 100%;
+      /* Ensure the container is square. Adjust width and height as needed */
+      width: 100px; /* Example width */
+      height: 100px; /* Example height */
+      display: flex; /* This can help center the image */
+      justify-content: center;
+      align-items: center;
     }
 
       .image.avatar:before {
@@ -216,11 +221,10 @@ papertitle {
 
       .image.avatar img {
         border-radius: 100%;
-        width: 45%;
-        padding: 20px;
-        // border: 1px solid #ddd;
-        // padding: 3px;
-        // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
+        width: 100%; /* Adjust to fill the container */
+        height: 100%; /* Equal to width for a perfect circle */
+        object-fit: cover; /* To handle non-square images */
+        padding: 0; /* Remove padding */
       }
 
     #header .image.avatar {
