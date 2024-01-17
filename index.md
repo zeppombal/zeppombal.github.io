@@ -10,7 +10,7 @@ Previously, I worked on the fields of algorithmic fairness and explainability.
 
 ## News
 
-- **[January 2023]**: First release of [Tower](https://unbabel.com/announcing-tower-an-open-multilingual-llm-for-translation-related-tasks), an open multilingual LLM for translation-related tasks..
+- **[January 2023]**: First release of [Tower](https://unbabel.com/announcing-tower-an-open-multilingual-llm-for-translation-related-tasks), an open multilingual LLM for translation-related tasks.
 - **[October 2023]** [Paper](https://aclanthology.org/2023.findings-emnlp.744/) accepted at EMNLP 2023 (findings).
 - **[September 2023]** Collaborated on the [winning submission to the WMT 2023 Shared Task on Quality Estimation](https://arxiv.org/abs/2309.11925) held at EMNLP 2023.
 - **[March 2023]**: Joined [Unbabel](https://unbabel.com/) as a Research Scientist.

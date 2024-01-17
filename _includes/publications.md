@@ -28,7 +28,9 @@
     <div class="author">Sérgio Jesus, <strong>José Pombal</strong>, Duarte Alves, André F. Cruz, Pedro Saleiro, Rita P. Ribeiro, João Gama, Pedro Bizarro</div>
     <div class="periodical"><em>arXiv <strong>(preprint)</strong>, 2023.</em></div>
     <div class="links">
-      <a href="https://responsibledecisionmaking.github.io/assets/pdf/papers/17.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/d9696563856bd350e4e7ac5e5812f23c-Paper-Datasets_and_Benchmarks.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Dataset</a>
+      <a href="https://github.com/feedzai/bank-account-fraud" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
     </div>
   </div>
 </div>
@@ -42,9 +44,7 @@
     <div class="author"><strong>José Pombal</strong>, Pedro Saleiro, Mário A.T. Figueiredo, Pedro Bizarro</div>
     <div class="periodical"><em>arXiv <strong>(preprint)</strong>, 2023.</em></div>
     <div class="links">
-      <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/d9696563856bd350e4e7ac5e5812f23c-Paper-Datasets_and_Benchmarks.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Dataset</a>
-      <a href="https://github.com/feedzai/bank-account-fraud" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="https://responsibledecisionmaking.github.io/assets/pdf/papers/17.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
     </div>
   </div>
 </div>
