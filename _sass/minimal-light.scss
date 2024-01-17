@@ -220,7 +220,7 @@ papertitle {
       }
 
       .image.avatar img {
-        border-radius: 100%;
+        border-radius: 50%;
         width: 45%; /* Adjust to fill the container */
         height: 45%; /* Equal to width for a perfect circle */
         object-fit: cover; /* To handle non-square images */
