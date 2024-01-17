@@ -3,8 +3,6 @@
 <div class="publications">
 <ol class="bibliography">
 
-<br>
-
 <li>
 <div class="pub-row">
   <div class="col-sm-9" style="position: relative;width: 100%;">
