@@ -208,13 +208,13 @@ papertitle {
 
     .image.avatar {
       /* Ensure the container is square. Adjust width and height as needed */
-      width: 200px; /* Example width */
-      height: 200px; /* Example height */
+      width: 120px; /* Example width */
+      height: 120px; /* Example height */
       display: flex; /* This can help center the image */
       justify-content: center;
       align-items: center;
     }
-    
+
       .image.avatar:before {
         display: none;
       }
