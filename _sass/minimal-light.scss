@@ -215,12 +215,12 @@ papertitle {
       }
 
       .image.avatar img {
-        border-radius: 100%;
-        width: 45%;
-        padding: 20px;
-        // border: 1px solid #ddd;
-        // padding: 3px;
-        // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
+        border-radius: 100%; /* This makes the image circular */
+        width: 45%; /* Ensure the height is equal to the width */
+        height: 45%; /* Add this line */
+        padding: 0; /* Remove padding to maintain the circle shape */
+        /* Add object-fit if you want to maintain the aspect ratio of the image */
+        object-fit: cover; 
       }
 
     #header .image.avatar {

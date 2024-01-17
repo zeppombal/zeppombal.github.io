@@ -54,22 +54,11 @@ papertitle { font-weight: 600; font-size: 100%; }
 
 .image:before { -moz-transition: opacity 0.2s ease-in-out; -webkit-transition: opacity 0.2s ease-in-out; -ms-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; border-radius: 0.35em; content: ''; display: block; height: 100%; left: 0; opacity: 0.5; position: absolute; top: 0; width: 100%; }
 
-.image.avatar {
-  /* Ensure the container is square. Adjust width and height as needed */
-  width: 200px; /* Example width */
-  height: 200px; /* Example height */
-  display: flex; /* This can help center the image */
-  justify-content: center;
-  align-items: center;
-}
+.image.avatar { border-radius: 100%; }
 
-.image.avatar img {
-  border-radius: 100%;
-  width: 100%; /* Adjust to fill the container */
-  height: 100%; /* Equal to width for a perfect circle */
-  object-fit: cover; /* To handle non-square images */
-  padding: 0; /* Remove padding */
-}
+.image.avatar:before { display: none; }
+
+.image.avatar img { border-radius: 100%; width: 45%; padding: 20px; }
 
 #header .image.avatar { margin: 0 0 1em 0; width: 8.00em; }
 
