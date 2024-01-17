@@ -221,8 +221,8 @@ papertitle {
 
       .image.avatar img {
         border-radius: 100%;
-        width: 100%; /* Adjust to fill the container */
-        height: 100%; /* Equal to width for a perfect circle */
+        width: 45%; /* Adjust to fill the container */
+        height: 45%; /* Equal to width for a perfect circle */
         object-fit: cover; /* To handle non-square images */
         padding: 0; /* Remove padding */
       }
