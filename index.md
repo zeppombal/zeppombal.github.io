@@ -4,9 +4,9 @@ layout: homepage
 
 ## About Me
 
-I am a Senior Research Scientist at [Sword Health](https://swordhealth.com/) and a PhD student at Instituto Superior Técnico in Lisbon avised by Prof. André Martins and Ricardo Rei. 
+I am a Senior Research Scientist at [Sword Health](https://swordhealth.com/), and a PhD student at Instituto Superior Técnico and Instituto de Telecomunicações in Lisbon, advised by Prof. André Martins and Ricardo Rei. 
 I'm currently working on building frontier LLMs for healthcare with a focus on applications for mental health, and I'm particularly interested in the automatic evaluation of such models.
-Previously, I worked on multilingual LLMs at Unbabel, and fairness-aware ML for fraud detection at Feedzai.
+Previously, I worked on the development and evaluation of multilingual LLMs at Unbabel, and fairness-aware ML for fraud detection at Feedzai.
 
 ## News
 
