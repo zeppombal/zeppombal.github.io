@@ -1,0 +1,24 @@
+{%- capture me %}<strong>{{ site.title }}</strong>{% endcapture -%}
+<h2 id="publications">Selected publications</h2>
+<ol class="pubs">
+  {%- for pub in site.data.publications %}
+  <li class="pub">
+    <p class="pub-meta">
+      <span class="pub-venue">{{ pub.venue }}</span>
+      {%- if pub.note %}
+      <span class="pub-note">{{ pub.note }}</span>
+      {%- endif %}
+    </p>
+    <div>
+      <h3 class="pub-title"><a href="{{ pub.links.first.url }}">{{ pub.title | escape }}</a></h3>
+      <p class="pub-authors">{{ pub.authors | replace: site.title, me }}</p>
+      <p class="pub-links">
+        {%- for link in pub.links %}
+        <a href="{{ link.url }}">{{ link.name | escape }}</a>
+        {%- endfor %}
+      </p>
+    </div>
+  </li>
+  {%- endfor %}
+</ol>
+<p class="pubs-note">* Equal contribution. Full list on <a href="{{ site.google_scholar }}">Google Scholar</a>.</p>

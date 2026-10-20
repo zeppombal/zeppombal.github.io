@@ -1,22 +1,54 @@
-main:
+# Selected publications, newest first; rendered by _includes/publications.html.
+# The author matching `title` in _config.yml is set in bold; * marks equal contribution.
+# The paper title links to the first entry under `links`. `note` is an optional second line under the venue.
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+- title: "MindEval2: Clinically Grounded Patients and Rubrics for Evaluating Language Models in Mental Health Support"
+  authors: John Mendonça*, Daniel Tschernutter*, José Pombal*, Areti Vassilopoulos, Catarina Botelho, Ignacio Sarasua, Maya D'Eon, Nuno Guerreiro, Ricardo Rei
+  venue: arXiv 2026
+  links:
+    - name: Paper
+      url: https://arxiv.org/abs/2610.22314
+    - name: Code & data
+      url: https://github.com/SWORDHealth/mind-eval
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+- title: Self-Preference Bias in Rubric-Based Evaluation of Large Language Models
+  authors: José Pombal, Ricardo Rei, André F. T. Martins
+  venue: COLM 2026
+  links:
+    - name: Paper
+      url: https://arxiv.org/abs/2604.06996
+    - name: Code
+      url: https://github.com/zeppombal/rubric-self-preference
+
+- title: "MindEval: Benchmarking Language Models on Multi-turn Mental Health Support"
+  authors: José Pombal, Maya D'Eon, Nuno M. Guerreiro, Pedro Henrique Martins, António Farinhas, Ricardo Rei
+  venue: COLM 2026
+  note: DAIH Workshop
+  links:
+    - name: Paper
+      url: https://arxiv.org/abs/2511.18491
+    - name: Code & data
+      url: https://github.com/SWORDHealth/mind-eval/tree/legacy
+    - name: Blog post & video
+      url: https://sword.com/newsroom/sword-introduces-mindeval
+
+- title: "Zero-shot Benchmarking: A Framework for Flexible and Scalable Automatic Evaluation of Language Models"
+  authors: José Pombal, Nuno M. Guerreiro, Ricardo Rei, André F. T. Martins
+  venue: COLM 2025
+  links:
+    - name: Paper
+      url: https://arxiv.org/abs/2504.01001
+    - name: Code & data
+      url: https://github.com/deep-spin/zsb
+
+- title: "Tower: An Open Multilingual Large Language Model for Translation-Related Tasks"
+  authors: Duarte M. Alves*, José Pombal*, Nuno M. Guerreiro*, Pedro H. Martins, João Alves, Amin Farajian, Ben Peters, Ricardo Rei, Patrick Fernandes, Sweta Agrawal, Pierre Colombo, José G. C. de Souza, André F. T. Martins
+  venue: COLM 2024
+  note: Spotlight
+  links:
+    - name: Paper
+      url: https://arxiv.org/abs/2402.17733
+    - name: Models & data
+      url: https://huggingface.co/collections/Unbabel/tower-659eaedfe36e6dd29eb1805c
+    - name: Evaluation code
+      url: https://github.com/deep-spin/tower-eval
